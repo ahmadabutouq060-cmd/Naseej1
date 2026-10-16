@@ -3,30 +3,27 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Naseej</title>
-    <!--
-      Metadata below was previously injected at build time from
-      .figma/make/site.json by the Vite figmaSiteConfiguration plugin.
-      The site is static now, so it lives in the document.
-    -->
+    <title>Naseej — Explore Jordan Through Stories</title>
     <meta
       name="description"
-      content="Explore Jordan through immersive, gamified story threads that engage travelers with interactive narratives, story challenges, and rewards."
+      content="Explore Jordan through Naseej, a gamified tourism experience with interactive story threads, destinations, waypoints, challenges, and rewards."
     />
-    <meta name="robots" content="noindex, nofollow" />
-    <meta property="og:title" content="Naseej" />
+    <meta name="robots" content="index, follow" />
+    <meta property="og:title" content="Naseej — Explore Jordan Through Stories" />
     <meta
       property="og:description"
-      content="Explore Jordan through immersive, gamified story threads that engage travelers with interactive narratives, story challenges, and rewards."
+      content="Discover Jordan through interactive travel stories, waypoints, local culture, challenges, and rewards."
     />
-    <meta name="twitter:card" content="summary" />
+    <meta property="og:url" content="https://naseej-89fa4.web.app/" />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="canonical" href="https://naseej-89fa4.web.app/" />
     <link rel="icon" type="image/png" href="assets/9920d.png" />
     <link rel="stylesheet" href="css/styles.css" />
   </head>
-<body>
+  <body>
     <div id="app"></div>
-    <!-- Sign In dialog host. A sibling of #app on purpose: navigation.js
-         repaints #app on every route change, and the dialog must survive. -->
+    <!-- Sign-in dialog host stays separate because navigation repaints #app. -->
     <div id="auth-root"></div>
     <script src="js/data.js"></script>
     <script src="js/navigation.js"></script>
