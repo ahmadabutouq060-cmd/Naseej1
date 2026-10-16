@@ -1,8 +1,14 @@
-# Naseej — Vanilla JavaScript Implementation
+# Naseej — Canonical Vanilla JavaScript Implementation
 
 Naseej is a gamified tourism experience focused on exploring Jordan through interactive story threads, destinations, waypoints, challenges, and rewards.
 
-**Project demo:** https://naseej-89fa4.web.app/
+**Live demo:** https://naseej-89fa4.web.app/
+
+> **Canonical repository:** This is the current primary source repository for the Vanilla JavaScript implementation of Naseej. Other Naseej-named repositories in the same account may contain earlier versions, React/Vanilla comparison work, or experiments; use this repository for ongoing work on the current Vanilla implementation.
+
+## Recognition
+
+The team reached the top 12 finalist teams out of more than 100 participating teams in the PEXILE SITE competition.
 
 ## Main areas
 
@@ -56,4 +62,4 @@ This command requires the Firebase CLI and Firestore emulator to be available in
 
 ## Before presenting or deploying
 
-Because the account contains more than one Naseej repository, verify that this is the version you intend to showcase and that the live demo corresponds to the checked-in source. Never commit private service-account keys or other server secrets.
+Verify the live demo and Firebase configuration against the version you intend to release. Never commit private service-account keys, access tokens, or other server secrets. In your CV and portfolio, clearly distinguish the features you implemented from team contributions.
