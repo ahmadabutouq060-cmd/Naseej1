@@ -2771,7 +2771,8 @@
           challenge:
             "Measure the water temperature in the main pool and in the natural rock channels. Record the temperature gradient from the hottest spring source to the cooled pool and explain why the temperature drops over distance.",
 
-          image: "assets/places/madaba/main-hot-springs-resort.jpg",
+          image: "assets/places/madaba/main-hot-springs-resort.svg",
+          imageStatus: "placeholder",
         },
 
         {
@@ -4101,7 +4102,7 @@
       hook: "Immerse in 63°C mineral springs that Herod the Great bathed in — then follow the waterfall to the canyon floor.",
 
       city: "Madaba",
-      region: "Ma'in Hot Springs", image: "assets/places/madaba/main-hot-springs-resort.jpg", imageSubject: "Ma'in Hot Springs Resort",
+      region: "Ma'in Hot Springs", image: "assets/places/madaba/main-hot-springs-resort.svg", imageStatus: "placeholder", imageSubject: "Ma'in Hot Springs Resort",
 
       waypoints: 3,
       duration: "1 day",
